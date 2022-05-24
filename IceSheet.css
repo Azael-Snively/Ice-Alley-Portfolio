@@ -1,4 +1,4 @@
-
+ 
 
 
 
@@ -328,13 +328,8 @@ background: rgb(40, 43, 68);
 
 .row{
 
-
-    display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
-    grid-gap: 30px;
-    column-gap: 50px;
-    
-    
+   display: grid;
+  grid-template-rows: 80px 200px;
 }
 
 .service{
